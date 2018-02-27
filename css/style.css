@@ -1,0 +1,42 @@
+body{
+  margin: 0;
+  font-family: Helvetica;
+  font-size: 22px;
+  color:black;
+  background-color: white;
+  opacity: 0.9;
+  text-align:center;
+}
+
+nav{
+  text-align: right;
+  flex-grow: 1;
+}
+
+a{
+  color: black;
+}
+
+div{
+  display: block;
+
+  border: 1px solid black;
+}
+/*Header CSS Code*/
+header{
+  width: 100%;
+  z-index: 1;
+  height: 64px;
+  background-color: white;
+  display: flex;
+  border: 1px solid black;
+  align-items: center;
+
+}
+
+.headerimage{
+  margin-left: 24px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  height: 32px;
+}
