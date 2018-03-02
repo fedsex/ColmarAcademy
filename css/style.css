@@ -95,9 +95,55 @@ ul{
 
 .mainphoto{
   border: 1px solid black;
+  margin: 32px 24px;
+  width: 60%;
+}
+
+.mainphoto img{
+  width: 100%;
+}
+
+.mainphoto h1{
+  border: 1px solid black;
+  font-family: Arial;
+  margin-bottom: 24px;
+}
+
+.mainphoto span{
+  border: 1px solid black;
 }
 
 .news{
   border: 1px solid black;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
 
+.optionbar{
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+}
+
+.optionbar img{
+    width:35%;
+    height: auto;
+    padding: 16px;
+}
+
+.optionbar .content{
+  width: 65%;
+}
+
+.content h3{
+  border: 1px solid black;
+  font-family: Arial;
+  margin-bottom: 8px;
+}
+
+.readmore{
+  border: 1px solid black;
+  display: block;
+  color: blue;
+  margin-top: 8px;
 }
