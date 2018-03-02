@@ -88,7 +88,7 @@ ul{
 }
 
 /*Main infor*/
-.maininfo{
+.zoneone{
   border: 1px solid black;
   display: flex;
 }
@@ -99,5 +99,5 @@ ul{
 
 .news{
   border: 1px solid black;
-  
+
 }
